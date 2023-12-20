@@ -1,7 +1,6 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-
 #include <QApplication>
 #include <QWidget>
 #include <QLabel>
@@ -11,6 +10,14 @@
 #include <QFile>
 #include <QTextStream>
 #include <QVBoxLayout>
+#include <QMenuBar>
+#include <QMenu>
+#include <QAction>
+#include <QDialog>
+#include <QPlainTextEdit>
+#include <QFileDialog>
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
